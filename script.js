@@ -17,10 +17,9 @@ const divide = (arr, n) => {
             tracker = arr[i];
         }
     }
-
     ans.push(subarr);
     return ans;
 };
-const n =parseFloat(prompt("Enter n:")); 
+const n = prompt("Enter n:"); 
 alert(JSON.stringify(divide(arr, n)));
 
