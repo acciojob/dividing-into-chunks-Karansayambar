@@ -22,5 +22,5 @@ const divide = (arr, n) => {
     return ans;
 };
 
-const n = parseInt(prompt("Enter n:"), 10); // Convert the user input to an integer
+const n = parseInt(prompt("Enter n:")); // Convert the user input to an integer
 alert(JSON.stringify(divide(arr, n)));
