@@ -1,4 +1,5 @@
 const arr = [1, 2, 3, 4, 1, 0, 2, 2];
+
 const divide = (arr, n) => {
     let subarr = [],
         ans = [],
@@ -20,5 +21,6 @@ const divide = (arr, n) => {
     ans.push(subarr);
     return ans;
 };
-const n = prompt("Enter n: ");
+
+const n = parseInt(prompt("Enter n:"), 10); // Convert the user input to an integer
 alert(JSON.stringify(divide(arr, n)));
